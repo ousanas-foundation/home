@@ -1,7 +1,7 @@
 {
   "name": "coinage-react",
   "version": "1.0.0",
-  "homepage": "ousanasfoundation.github.io",
+  "homepage": "/",
   "description": "Example of using nextjs and redux",
   "main": "index.js",
   "scripts": {
