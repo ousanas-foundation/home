@@ -1,0 +1,25 @@
+{
+    "data": [
+      {
+        "label": "MLN TRANSACTIONS",
+        "img" : "17",
+        "count": "4.9"
+      },
+      {
+        "label": "ONLINE CONSULTANTS",
+        "img" : "18",
+        "count": "80"
+      },
+      {
+        "label": "COUNTRIES SERVED",
+        "img" : "19",
+        "count": "34"
+      },
+      {
+        "label": "MLN BITCOIN WALLETS",
+        "img" : "20",
+        "count": "2.8"
+      }
+    ]
+  }
+  

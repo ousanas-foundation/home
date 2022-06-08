@@ -1,0 +1,20 @@
+{
+    "data": [
+      {
+        "label": "Sign Up For CoinAge",
+        "img" : "3",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+      },
+      {
+        "label": "Connect Your Bank Account",
+        "img" : "4",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+      },
+      {
+        "label": "Buy And Sale Coin",
+        "img" : "5",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+      }
+    ]
+  }
+  

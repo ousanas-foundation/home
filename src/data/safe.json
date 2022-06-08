@@ -1,0 +1,20 @@
+{
+    "data": [
+      {
+        "label": "Security",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur dolore aliqua.",
+        "img" : "21"
+      },
+      {
+        "label": "License",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur dolore aliqua.",
+        "img" : "22"
+      },
+      {
+        "label": "Result",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur dolore aliqua.",
+        "img" : "23"
+      }
+    ]
+  }
+  

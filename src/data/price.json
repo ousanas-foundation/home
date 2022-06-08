@@ -1,0 +1,126 @@
+{
+    "data": [
+        {
+            "USD": [
+                {
+                    "label": "Get 0.0102 BTC",
+                    "text": "for",
+                    "price": "100",
+                    "button_text": "Buy Now",
+                    "button_link": "#"
+                },
+                {
+                    "label": "Get 0.0202 BTC",
+                    "text": "for",
+                    "price": "200",
+                    "button_text": "Buy Now",
+                    "button_link": "#"
+                },
+                {
+                    "label": "Get 0.0502 BTC",
+                    "text": "for",
+                    "price": "500",
+                    "button_text": "Buy Now",
+                    "button_link": "#"
+                },
+                {
+                    "label": "Get 0.1002 BTC",
+                    "text": "for",
+                    "price": "1000",
+                    "button_text": "Buy Now",
+                    "button_link": "#"
+                }
+            ],
+            "GBP": [
+                {
+                    "label": "Get 0.0102 BTC",
+                    "text": "for",
+                    "price": "150",
+                    "button_text": "Buy Now",
+                    "button_link": "#"
+                },
+                {
+                    "label": "Get 0.0202 BTC",
+                    "text": "for",
+                    "price": "250",
+                    "button_text": "Buy Now",
+                    "button_link": "#"
+                },
+                {
+                    "label": "Get 0.0502 BTC",
+                    "text": "for",
+                    "price": "550",
+                    "button_text": "Buy Now",
+                    "button_link": "#"
+                },
+                {
+                    "label": "Get 0.1002 BTC",
+                    "text": "for",
+                    "price": "950",
+                    "button_text": "Buy Now",
+                    "button_link": "#"
+                }
+            ],
+            "EUR": [
+                {
+                    "label": "Get 0.0102 BTC",
+                    "text": "for",
+                    "price": "100",
+                    "button_text": "Buy Now",
+                    "button_link": "#"
+                },
+                {
+                    "label": "Get 0.0202 BTC",
+                    "text": "for",
+                    "price": "200",
+                    "button_text": "Buy Now",
+                    "button_link": "#"
+                },
+                {
+                    "label": "Get 0.0502 BTC",
+                    "text": "for",
+                    "price": "500",
+                    "button_text": "Buy Now",
+                    "button_link": "#"
+                },
+                {
+                    "label": "Get 0.1002 BTC",
+                    "text": "for",
+                    "price": "1000",
+                    "button_text": "Buy Now",
+                    "button_link": "#"
+                }
+            ],
+            "RUB": [
+                {
+                    "label": "Get 0.0102 BTC",
+                    "text": "for",
+                    "price": "150",
+                    "button_text": "Buy Now",
+                    "button_link": "#"
+                },
+                {
+                    "label": "Get 0.0202 BTC",
+                    "text": "for",
+                    "price": "250",
+                    "button_text": "Buy Now",
+                    "button_link": "#"
+                },
+                {
+                    "label": "Get 0.0502 BTC",
+                    "text": "for",
+                    "price": "550",
+                    "button_text": "Buy Now",
+                    "button_link": "#"
+                },
+                {
+                    "label": "Get 0.1002 BTC",
+                    "text": "for",
+                    "price": "950",
+                    "button_text": "Buy Now",
+                    "button_link": "#"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "data": [
+      {
+        "label": "Safe And Secure",
+        "img" : "2",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+      },
+      {
+        "label": "Awesome Mobile App",
+        "img" : "6",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+      },
+      {
+        "label": "Secure Wallet",
+        "img" : "7",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+      },
+      {
+        "label": "Covered By Insurance",
+        "img" : "8",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+      },
+      {
+        "label": "Recurring Buying",
+        "img" : "9",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+      },
+      {
+        "label": "Instant Exchange",
+        "img" : "10",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+      }
+    ]
+  }
+  

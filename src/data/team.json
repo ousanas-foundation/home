@@ -1,0 +1,41 @@
+{
+    "data": [
+      {
+        "label": "Benjamin Carroll",
+        "degination" : "Company Founder",
+        "img" : "1.png",
+        "facebook": "#",
+        "twitter": "#",
+        "pinterest": "#",
+        "tumblr": "#"
+      },
+      {
+        "label": "Devid Thomas",
+        "degination" : "Creative Designer",
+        "img" : "5.jpg",
+        "facebook": "#",
+        "twitter": "#",
+        "pinterest": "#",
+        "tumblr": "#"
+      },
+      {
+        "label": "Richard Jack",
+        "degination" : "Director",
+        "img" : "3.png",
+        "facebook": "#",
+        "twitter": "#",
+        "pinterest": "#",
+        "tumblr": "#"
+      },
+      {
+        "label": "Christhofer henry",
+        "degination" : "Developer",
+        "img" : "4.png",
+        "facebook": "#",
+        "twitter": "#",
+        "pinterest": "#",
+        "tumblr": "#"
+      }
+    ]
+  }
+  

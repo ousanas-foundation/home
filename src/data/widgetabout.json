@@ -1,0 +1,30 @@
+{
+    "data": [
+      {
+        "logo": [{
+            "url": "#",
+            "image_url": "footer-logo"
+        }],
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "social" : [{
+            "facebook": [{
+                "url": "#",
+                "className": "fa fa-facebook"
+            }],
+            "twitter": [{
+                "url": "#",
+                "className": "fa fa-twitter"
+            }],
+            "pinterest": [{
+                "url": "#",
+                "className": "fa fa-pinterest-p"
+            }],
+            "linkedin": [{
+                "url": "#",
+                "className": "fa fa-linkedin"
+            }]
+        }]
+      }
+    ]
+  }
+  

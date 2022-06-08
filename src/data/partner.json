@@ -1,0 +1,35 @@
+{
+    "data": [
+        {
+            "label": "Partner One",
+            "img" : "1",
+            "url": "#"
+        },
+        {
+            "label": "Partner Two",
+            "img" : "2",
+            "url": "#"
+        },
+        {
+            "label": "Partner Three",
+            "img" : "3",
+            "url": "#"
+        },
+        {
+            "label": "Partner Four",
+            "img" : "2",
+            "url": "#"
+        },
+        {
+            "label": "Partner Five",
+            "img" : "1",
+            "url": "#"
+        },
+        {
+            "label": "Partner Six",
+            "img" : "3",
+            "url": "#"
+        }
+    ]
+  }
+  
