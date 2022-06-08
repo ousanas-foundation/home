@@ -2,8 +2,8 @@ const withImages = require('next-images')
 const withCSS = require('@zeit/next-css')
 module.exports = withImages(withCSS())
 module.exports = withCSS({
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH,
-  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH,
+  basePath: '/home',
+  assetPrefix: '/home',
   webpack: function (config) {
     config.module.rules.push({
       test: /\.(eot|woff|woff2|ttf|svg|png|jpg|jpeg|gif|ico)$/,
