@@ -1,6 +1,6 @@
 import { combineReducers } from "redux"
 import counterReducer from "./counterReducer"
-import cryptoInfo from "./cryptoInfo.reducers"
+import cryptoInfo from "./focusInfo.reducers"
 import videoReducer from "./video.reducers"
 import workInfo from "./work.reducers"
 import roadMapInfo from './roadmap.reducers'

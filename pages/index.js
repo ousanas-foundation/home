@@ -15,22 +15,22 @@ import SafeSection from '../src/containers/SafeSection'
 import BlogSection from '../src/containers/BlogSection'
 import ContactSection from '../src/containers/ContactSection'
 import FooterSection from '../src/containers/FooterSection'
-
+// Initialize Firebase
 function index() {
   return (
    <MainLayout>
      <BannerSection />
      <AboutSection />
      <WorkSection />
-     <RoadMapSection />
-     <VideoSection />
-     <FeatureSection />
-     <TeamSection />
-     <PriceSection />
-     <FunFactSection />
-     <SafeSection />
+     {/* <RoadMapSection /> */}
+     {/* <VideoSection /> */}
+     {/* <FeatureSection /> */}
+     {/* <TeamSection /> */}
+     {/* <PriceSection /> */}
+     {/* <FunFactSection />
+     <SafeSection /> */}
      <BlogSection />
-     <ContactSection />
+     {/* <ContactSection /> */}
      <FooterSection />
    </MainLayout>
   );

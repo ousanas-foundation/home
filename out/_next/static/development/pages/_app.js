@@ -12955,9 +12955,9 @@ function (_App) {
           lineNumber: 18
         },
         __self: this
-      }, "CoinAge \u2013 React Landing Page For ICO & Cryptocurrency"), __jsx("meta", {
+      }, "Ousanas Foundation \u2013 Collaborating to bring Blockchain to East-Africa"), __jsx("meta", {
         name: "description",
-        content: "A simple react, redux and nextjs template",
+        content: "A Non profit organization aiming to created skillfully young ethiopian developers and uptake open source projects",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 19
@@ -13015,32 +13015,6 @@ var getAllBlogInfo = function getAllBlogInfo() {
 
 /***/ }),
 
-/***/ "./src/actions/cryptoInfo.actions.js":
-/*!*******************************************!*\
-  !*** ./src/actions/cryptoInfo.actions.js ***!
-  \*******************************************/
-/*! exports provided: FETCH_CRYPTO_INFO, getAllCryptoInfo */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FETCH_CRYPTO_INFO", function() { return FETCH_CRYPTO_INFO; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getAllCryptoInfo", function() { return getAllCryptoInfo; });
-/* harmony import */ var _data_currencyinfo_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../data/currencyinfo.json */ "./src/data/currencyinfo.json");
-var _data_currencyinfo_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../data/currencyinfo.json */ "./src/data/currencyinfo.json", 1);
-
-var FETCH_CRYPTO_INFO = 'FETCH_CRYPTO_INFO';
-var getAllCryptoInfo = function getAllCryptoInfo() {
-  return function (dispatch) {
-    dispatch({
-      type: "FETCH_CRYPTO_INFO",
-      payload: _data_currencyinfo_json__WEBPACK_IMPORTED_MODULE_0__["data"]
-    });
-  };
-};
-
-/***/ }),
-
 /***/ "./src/actions/features.actions.js":
 /*!*****************************************!*\
   !*** ./src/actions/features.actions.js ***!
@@ -13061,6 +13035,32 @@ var getAllFeaturesInfo = function getAllFeaturesInfo() {
     dispatch({
       type: "FETCH_FEATURES_INFO",
       payload: _data_futures_json__WEBPACK_IMPORTED_MODULE_0__["data"]
+    });
+  };
+};
+
+/***/ }),
+
+/***/ "./src/actions/focusInfo.actions.js":
+/*!******************************************!*\
+  !*** ./src/actions/focusInfo.actions.js ***!
+  \******************************************/
+/*! exports provided: FETCH_CRYPTO_INFO, getAllFocusInfo */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FETCH_CRYPTO_INFO", function() { return FETCH_CRYPTO_INFO; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getAllFocusInfo", function() { return getAllFocusInfo; });
+/* harmony import */ var _data_focusinfo_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../data/focusinfo.json */ "./src/data/focusinfo.json");
+var _data_focusinfo_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../data/focusinfo.json */ "./src/data/focusinfo.json", 1);
+
+var FETCH_CRYPTO_INFO = 'FETCH_CRYPTO_INFO';
+var getAllFocusInfo = function getAllFocusInfo() {
+  return function (dispatch) {
+    dispatch({
+      type: "FETCH_CRYPTO_INFO",
+      payload: _data_focusinfo_json__WEBPACK_IMPORTED_MODULE_0__["data"]
     });
   };
 };
@@ -13347,14 +13347,14 @@ module.exports = JSON.parse("{\"data\":[{\"id\":\"1\",\"label\":\"Best Way Rise 
 
 /***/ }),
 
-/***/ "./src/data/currencyinfo.json":
-/*!************************************!*\
-  !*** ./src/data/currencyinfo.json ***!
-  \************************************/
+/***/ "./src/data/focusinfo.json":
+/*!*********************************!*\
+  !*** ./src/data/focusinfo.json ***!
+  \*********************************/
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"data\":[{\"label\":\"ETH/BTC\",\"img\":\"1\",\"average\":\"0.45%\",\"rate\":\"2.009054 ETH\",\"flag\":true},{\"label\":\"USD/BTC\",\"img\":\"2\",\"average\":\"-0.07%\",\"rate\":\"0.009054 ETH\",\"flag\":false},{\"label\":\"XMR/BTC\",\"img\":\"3\",\"average\":\"0.90%\",\"rate\":\"3.009054 ETH\",\"flag\":true},{\"label\":\"ETH/BTC\",\"img\":\"4\",\"average\":\"-0.55%\",\"rate\":\"1.009054 ETH\",\"flag\":false},{\"label\":\"LTH/BTC\",\"img\":\"2\",\"average\":\"1.45%\",\"rate\":\"4.009054 ETH\",\"flag\":true},{\"label\":\"XMR/BTC\",\"img\":\"3\",\"average\":\"0.01%\",\"rate\":\"-2.009054 ETH\",\"flag\":false}]}");
+module.exports = JSON.parse("{\"data\":[{\"label\":\"Amharic moment.js\",\"img\":\"1\",\"description\":\"Issues like privacy, trustworthy AI, and digital rights impact all of us who use the internet. Mozilla helps translate them and empower meaningful change\"},{\"label\":\"Free Boot camp\",\"img\":\"2\",\"description\":\"Issues like privacy, trustworthy AI, and digital rights impact all of us who use the internet. Mozilla helps translate them and empower meaningful change\"},{\"label\":\"Advocating blockchain Technology\",\"img\":\"3\",\"description\":\"Issues like privacy, trustworthy AI, and digital rights impact all of us who use the internet. Mozilla helps translate them and empower meaningful change\"},{\"label\":\"Weekly Webinar\",\"img\":\"4\",\"description\":\"Issues like privacy, trustworthy AI, and digital rights impact all of us who use the internet. Mozilla helps translate them and empower meaningful change\"}]}");
 
 /***/ }),
 
@@ -13530,38 +13530,6 @@ var initialState = {
 
 /***/ }),
 
-/***/ "./src/reducers/cryptoInfo.reducers.js":
-/*!*********************************************!*\
-  !*** ./src/reducers/cryptoInfo.reducers.js ***!
-  \*********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/toConsumableArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js");
-/* harmony import */ var _actions_cryptoInfo_actions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../actions/cryptoInfo.actions */ "./src/actions/cryptoInfo.actions.js");
-
-
-var initailState = [];
-
-function cryptoInfo() {
-  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initailState;
-  var action = arguments.length > 1 ? arguments[1] : undefined;
-
-  switch (action.type) {
-    case _actions_cryptoInfo_actions__WEBPACK_IMPORTED_MODULE_1__["FETCH_CRYPTO_INFO"]:
-      return [].concat(Object(_babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(state), Object(_babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(action.payload));
-
-    default:
-      return state;
-  }
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (cryptoInfo);
-
-/***/ }),
-
 /***/ "./src/reducers/features.reducers.js":
 /*!*******************************************!*\
   !*** ./src/reducers/features.reducers.js ***!
@@ -13591,6 +13559,38 @@ function featuresInfo() {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (featuresInfo);
+
+/***/ }),
+
+/***/ "./src/reducers/focusInfo.reducers.js":
+/*!********************************************!*\
+  !*** ./src/reducers/focusInfo.reducers.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/toConsumableArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js");
+/* harmony import */ var _actions_focusInfo_actions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../actions/focusInfo.actions */ "./src/actions/focusInfo.actions.js");
+
+
+var initailState = [];
+
+function cryptoInfo() {
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initailState;
+  var action = arguments.length > 1 ? arguments[1] : undefined;
+
+  switch (action.type) {
+    case _actions_focusInfo_actions__WEBPACK_IMPORTED_MODULE_1__["FETCH_CRYPTO_INFO"]:
+      return [].concat(Object(_babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(state), Object(_babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(action.payload));
+
+    default:
+      return state;
+  }
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (cryptoInfo);
 
 /***/ }),
 
@@ -13637,7 +13637,7 @@ function funfactorInfo() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/redux.js");
 /* harmony import */ var _counterReducer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./counterReducer */ "./src/reducers/counterReducer.js");
-/* harmony import */ var _cryptoInfo_reducers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./cryptoInfo.reducers */ "./src/reducers/cryptoInfo.reducers.js");
+/* harmony import */ var _focusInfo_reducers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./focusInfo.reducers */ "./src/reducers/focusInfo.reducers.js");
 /* harmony import */ var _video_reducers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./video.reducers */ "./src/reducers/video.reducers.js");
 /* harmony import */ var _work_reducers__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./work.reducers */ "./src/reducers/work.reducers.js");
 /* harmony import */ var _roadmap_reducers__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./roadmap.reducers */ "./src/reducers/roadmap.reducers.js");
@@ -13665,7 +13665,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(redux__WEBPACK_IMPORTED_MODULE_0__["combineReducers"])({
   counterReducer: _counterReducer__WEBPACK_IMPORTED_MODULE_1__["default"],
-  cryptoInfo: _cryptoInfo_reducers__WEBPACK_IMPORTED_MODULE_2__["default"],
+  cryptoInfo: _focusInfo_reducers__WEBPACK_IMPORTED_MODULE_2__["default"],
   videoReducer: _video_reducers__WEBPACK_IMPORTED_MODULE_3__["default"],
   workInfo: _work_reducers__WEBPACK_IMPORTED_MODULE_4__["default"],
   roadMapInfo: _roadmap_reducers__WEBPACK_IMPORTED_MODULE_5__["default"],

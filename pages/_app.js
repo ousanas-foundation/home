@@ -15,8 +15,8 @@ class MyApp extends App {
           <HelmetProvider>
             <Helmet>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <title>CoinAge – React Landing Page For ICO & Cryptocurrency</title>
-                <meta name="description" content="A simple react, redux and nextjs template" />
+                <title>Ousanas Foundation – Collaborating to bring Blockchain to East-Africa</title>
+                <meta name="description" content="A Non profit organization aiming to created skillfully young ethiopian developers and uptake open source projects" />
                 <link rel="icon" type="image/x-icon" href={favicon}/>
             </Helmet>
           </HelmetProvider>

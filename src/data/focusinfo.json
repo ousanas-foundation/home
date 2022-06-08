@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "label": "Amharic moment.js",
+      "img" : "1",
+      "description": "Issues like privacy, trustworthy AI, and digital rights impact all of us who use the internet. Mozilla helps translate them and empower meaningful change"
+      
+    },
+    {
+      "label": "Free Boot camp",
+      "img" : "2", 
+      "description": "Issues like privacy, trustworthy AI, and digital rights impact all of us who use the internet. Mozilla helps translate them and empower meaningful change"
+     
+    },
+    
+    {
+      "label": "Advocating blockchain Technology",
+      "img" : "3", 
+      "description": "Issues like privacy, trustworthy AI, and digital rights impact all of us who use the internet. Mozilla helps translate them and empower meaningful change"
+     
+    },
+    
+    {
+      "label": "Weekly Webinar",
+      "img" : "4", 
+      "description": "Issues like privacy, trustworthy AI, and digital rights impact all of us who use the internet. Mozilla helps translate them and empower meaningful change"
+     
+    }
+    
+  ]
+}

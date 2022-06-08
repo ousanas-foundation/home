@@ -8,7 +8,7 @@ const WorkSection = () => {
             <Container>
                 <Row className="row-eq-rs-height">
                     <Col md={12}>
-                        <SectionTitle title="How It’s Work" subTitle="More Easy" />
+                        <SectionTitle title="How Katanga Wallet Works" subTitle="Trading Crypto in Free Market" />
                     </Col>
                 </Row>
                 <Work />

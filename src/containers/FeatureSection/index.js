@@ -8,7 +8,7 @@ const FeatureSection = () => {
             <Container>
                 <Row className="row-eq-rs-height">
                     <Col md={12}>
-                        <SectionTitle title="CoinAge Features" subTitle="Luscious For Your Business" />
+                        <SectionTitle title="Katanga Wallet Features" subTitle="" />
                     </Col>
                     <AllFeatures />
                 </Row>
