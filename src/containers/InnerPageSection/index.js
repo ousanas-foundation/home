@@ -9,7 +9,7 @@ const InnerPageSection = (props) => {
                         <h2>{props.title}</h2>
                         <Breadcrumb>
                             <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
-                            <Breadcrumb.Item active>{props.title}</Breadcrumb.Item>
+                            <Breadcrumb.Item active>{props.subTitle}</Breadcrumb.Item>
                         </Breadcrumb>
                     </Col>
                 </Row>

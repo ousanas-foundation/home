@@ -42,7 +42,8 @@ body {
 }
 p {
   font-family: 'PT Sans', sans-serif !important;
-  font-size: 14px !important;
+  font-size: 18px !important;
+  text-align: left;
 	color: #606060 !important;
   line-height: 26px;
 }

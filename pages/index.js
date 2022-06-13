@@ -22,7 +22,7 @@ function index() {
      <BannerSection />
      <AboutSection />
      <WorkSection />
-     {/* <RoadMapSection /> */}
+     <RoadMapSection /> 
      {/* <VideoSection /> */}
      {/* <FeatureSection /> */}
      {/* <TeamSection /> */}

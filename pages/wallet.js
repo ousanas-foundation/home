@@ -8,7 +8,7 @@ import InnerPageSection from '../src/containers/InnerPageSection'
 import FooterSection from '../src/containers/FooterSection'
 import WalletBanner from "../src/containers/WalletSection"
 import WorkSection from "../src/containers/WorkSection"
-import BuySection from "../src/containers/BuySection.js"
+import BuySection from "../src/containers/BuySection.js/index.js"
 import FeatureSection from "../src/containers/FeatureSection"
 
 class wallet extends Component {

@@ -1,19 +1,19 @@
 import React from 'react'
-const WidgetCategory = () => {
+const WidgetLearnCategory = () => {
     return(
         <div className="widget widget_catagory">
             <div className="widget-title">
-                <h3 className="title">Catagory</h3>
+                <h3 className="title">Learn About</h3>
             </div>	
             <ul className="catagory-items">
-                <li><a href="#">Mobile App  (10)</a></li>
-                <li><a href="#">Trending Post  (15)</a></li>
-                <li><a href="#">App Category  (20)</a></li>
-                <li><a href="#">Lifestyle  (25)</a></li>
-                <li><a href="#">Photography  (30)</a></li>
-                <li><a href="#">Videos  (35)</a></li>
+                <li><a href="#">What is DAO</a></li>
+                <li><a href="learn/manifesto">Manifesto</a></li>
+                <li><a href="#">Charter</a></li>
+                <li><a href="#">Shengo</a></li>
+                <li><a href="#">Managing Director</a></li>
+                <li><a href="#">How to Vote</a></li>
             </ul>								
         </div>
     )
 }
-export default WidgetCategory
+export default WidgetLearnCategory

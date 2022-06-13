@@ -14,14 +14,14 @@ import { faUser, faCalendar, faComments, faHeart } from '@fortawesome/free-solid
 import FooterSection from '../src/containers/FooterSection'
 
 class blog extends Component {
-    constructor(){
+    constructor() {
         super()
     }
-    componentDidMount(){
+    componentDidMount() {
         this.props.getAllBlogInfo()
     }
-    render(){
-        return(
+    render() {
+        return (
             <MainLayout>
                 <InnerPageSection title="Blog" />
                 <div className="main-blog-section">
@@ -32,7 +32,7 @@ class blog extends Component {
                                     this.props.blogInfo.map((item, index) => (
                                         <div className="single-post" key={index}>
                                             <div className="entry-thum">
-                                            <img src={require(`./../src/assets/images/blog/big/${item.img}.jpg`)}  alt="blog" />
+                                                <img src={require(`./../src/assets/images/blog/big/${item.img}.jpg`)} alt="blog" />
                                             </div>
                                             <div className="post-details">
                                                 <div className="entry-title">
@@ -69,7 +69,7 @@ class blog extends Component {
                                     </Pagination>
                                 </div>
                             </Col>
-                            <Col lg={{span: 3, offset: 1}} className="mg-bottom-100">
+                            <Col lg={{ span: 3, offset: 1 }} className="mg-bottom-100">
                                 <Sidebar />
                             </Col>
                         </Row>
@@ -82,7 +82,7 @@ class blog extends Component {
 }
 
 blog.getInitialProps = () => {
-  return {};
+    return {};
 };
 
 

@@ -9,7 +9,7 @@ const BannerSection = () => (
             <Row className="justify-content-md-center">
                 <Col lg={7}>
                     <h1 className="entry-title">Ousanas Foundation <br />Blockchain for East-Africa</h1>
-                    <h2 className="entry-sub-title">The Ousanas Foundation works to improve the access and awareness of cryptocurrencies and blockchains technology in East-Africa</h2>
+                    <h2 className="entry-sub-title">Decentralized Autonomous Organization (DAO) collaborating homegrown talent to improve the access to cryptocurrencies and blockchains technology in East-Africa</h2>
                     <a className="btn btn-white" href="#">Learn More about our project</a>
                 </Col>
                 <Col lg={5} md={8}>
