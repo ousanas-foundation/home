@@ -17,7 +17,7 @@ import FooterSection from '../src/containers/FooterSection'
 import DaoLayout from "../src/components/DaoLayout";
 import DaoBanner from "../src/containers/DaoBanner";
 import StructureSection from "../src/containers/StructureSection";
-import CharterSection from "../src/containers/CharterSection";
+import CharterSection from "../src/containers/FunFactSection copy";
 // Initialize Firebase
 function index() {
   return (

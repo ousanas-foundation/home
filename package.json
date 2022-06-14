@@ -1,7 +1,6 @@
 {
   "name": "ousanas-foundation",
   "version": "1.0.0",
-  "homepage": "https://ousanas-foundation.github.io/home/",
   "description": "Empowering community with blockchain technology",
   "main": "index.js",
   "scripts": {

@@ -2,7 +2,7 @@ const withImages = require('next-images')
 const withCSS = require('@zeit/next-css')
 module.exports = withImages(withCSS())
 module.exports = withCSS({
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '/home',
   assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || '',
   webpack: function (config) {
     config.module.rules.push({
