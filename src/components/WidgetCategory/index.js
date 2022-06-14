@@ -8,10 +8,10 @@ const WidgetLearnCategory = () => {
             <ul className="catagory-items">
                 <li><a href="#">What is DAO</a></li>
                 <li><a href="learn/manifesto">Manifesto</a></li>
-                <li><a href="#">Charter</a></li>
-                <li><a href="#">Shengo</a></li>
+                <li><a href="Ousanasdao">Ousanas DAO</a></li>
+                {/* <li><a href="#">Shengo</a></li>
                 <li><a href="#">Managing Director</a></li>
-                <li><a href="#">How to Vote</a></li>
+                <li><a href="#">How to Vote</a></li> */}
             </ul>								
         </div>
     )

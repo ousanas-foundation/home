@@ -21,7 +21,7 @@ const BannerSection = () => (
                 </Col>
             </Row>
         </Container>
-        <Container fluid="true">
+        {/* <Container fluid="true">
             <Row>
                 <Col>
                 <Row className="row-eq-rs-height">
@@ -32,7 +32,7 @@ const BannerSection = () => (
                     <OurArea />
                 </Col>
             </Row>
-        </Container>
+        </Container> */}
     </div>
 )
 export default BannerSection

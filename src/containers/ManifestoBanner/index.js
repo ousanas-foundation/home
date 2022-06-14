@@ -8,8 +8,8 @@ const ManifestoBanner = () => (
         <Container>
             <Row className="justify-content-md-center">
                 <Col >
-                    <h1 className="entry-title">The Ousanas Foundation Manifesto</h1>
-                    <h2 className="entry-sub-title">Decentralized Autonomous Organization (DAO) collaborating homegrown talent to improve the access to cryptocurrencies and blockchains technology in East-Africa</h2>
+                    <h2 className="entry-sub-title">The Ousanas Foundation Manifesto</h2>
+                    <h1 className="gradient" >Empowering our youth by creating blockchain use case</h1>
                     <a className="btn btn-white" href="#">Learn More about our project</a>
                 </Col>
                 

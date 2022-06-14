@@ -62,6 +62,13 @@ h6 {
 	margin-top: 0;
 	color: #313131;
 }
+.gradient {
+  color: transparent;
+  background: white;
+  font: 2.5rem sans-serif;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
 .btn {
     border: 0;
     border-radius: 35px;
@@ -86,7 +93,7 @@ h6 {
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
   transition: all .3s ease;
-	background-image: -moz-linear-gradient( 0deg, rgb(255,182,40) 0%, rgb(249,62,126) 100%);
+	background-image: -moz-linear-gradient( 0deg, #ffb628 0%, #f93e7e 100%);
   background-image: -webkit-linear-gradient( 0deg, rgb(255,182,40) 0%, rgb(249,62,126) 100%);
   background-image: -ms-linear-gradient( 0deg, rgb(255,182,40) 0%, rgb(249,62,126) 100%);
 }
@@ -110,6 +117,12 @@ h6 {
   -moz-transition: all .3s ease;
   transition: all .3s ease;
 	background: #ff4081;
+}.manifesto-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: left;
+  color: #6f7ca6 !important;
 }
 .btn.btn-white-shadow {
   border: 0;
@@ -667,6 +680,25 @@ h6 {
 }
 .about-area p {
 	margin-bottom: 30px;
+}
+.talari-about {
+  background: url('../images/about_video.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+  padding: 150px 0 150px 0;
+	background-position: 100%;
+  border-radius: 5px;
+  text-align: center;
+}.structure{
+  width: '100%';
+  background: url('../images/blog/big/structure.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+  padding: 250px 0 250px 0;
+	background-position: 100%;
+  border-radius: 5px;
+  text-align: center;
+
 }
 .about-video {
 	background: url('../images/about_video.jpg');
@@ -2040,7 +2072,16 @@ h6 {
    23.0 home 2 styles
 ================================================================== */
 .banner-area-2 {
+
   background: url('../images/bg/6.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 230px 0 100px 0;
+}
+.banner-area-3{
+  
+  background: url('../images/bg/8.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

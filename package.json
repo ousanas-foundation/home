@@ -1,7 +1,8 @@
 {
-  "name": "coinage-react",
+  "name": "ousanas-foundation",
   "version": "1.0.0",
-  "description": "Example of using nextjs and redux",
+  "homepage": "https://ousanas-foundation.github.io/home/",
+  "description": "Empowering community with blockchain technology",
   "main": "index.js",
   "scripts": {
     "dev": "next",

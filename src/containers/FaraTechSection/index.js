@@ -1,19 +1,19 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import SectionTitle from '../../components/SectionTitle'
-import RoadMap from '../../components/RoadMap'
-const RoadMapSection = () => {
+import AllFeatures from '../../components/Features'
+const FeatureSection = () => {
     return(
-        <div id='timeLine' className="roadmap-section text-center">
+        <div id="features" className="feature-section">
             <Container>
                 <Row className="row-eq-rs-height">
                     <Col md={12}>
-                        <SectionTitle title="Road Map" subTitle="What has been done and our plan for future" />
+                        <SectionTitle title="Katanga Wallet Features" subTitle="" />
                     </Col>
+                    <AllFeatures />
                 </Row>
-                <RoadMap />
             </Container>
-	    </div>
+        </div>
     )
 }
-export default RoadMapSection
+export default FeatureSection
