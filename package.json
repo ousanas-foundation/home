@@ -11,7 +11,7 @@
     "predeploy": "npm run build  && npm run export",
     "deploy": "gh-pages -d out"
   },
-  "author": "ThemeLayer",
+  "author": "ousanas foundation",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
     "@fortawesome/free-brands-svg-icons": "^5.12.0",
